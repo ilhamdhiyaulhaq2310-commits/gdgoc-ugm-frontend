@@ -138,10 +138,10 @@ export default function Header() {
             Contact
         </Link>
 
-        <button className="btn w-full justify-center mt-2">
+        <Link href="/#learning-tracks" onClick={handleScrollToTracks} className="btn w-full justify-center mt-2">
           Find your track
           <FaArrowRight size={15} />
-        </button>
+        </Link>
       </div>
     )}
   </header>
