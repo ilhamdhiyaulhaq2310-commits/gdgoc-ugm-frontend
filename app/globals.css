@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #4284F4;
+  --color-red: #EA4335;
+  --color-yellow: #F9AB00; 
+  --color-light-yellow: #FFF7DF;
+  --color-green: #34A853;
+  --color-light-green: #EAF5ED;
+  --color-black: #202024;
+  --color-blue: #1967D2;
+  --color-cyan: #EAF2FF;
+  --color-gray: #5F6368;
+  --color-light-gray: #F1F3F4;
+  --color-white: #FFFFFF;
+  --color-light: #DADCE0;
+}
+
+.btn {
+  @apply flex items-center justify-center gap-3 px-[20px] py-[14px] rounded-xl bg-primary text-[16px] text-white font-medium hover:opacity-90 transition-opacity shadow-sm;
+} 
+
+.btn1 {
+  @apply flex items-center justify-center gap-3 px-[20px] py-[14px] rounded-xl border border-light-gray text-[16px] text-blue font-medium hover:bg-gray-50 transition-colors;
+}
+
+.btn2 {
+  @apply flex items-center justify-center gap-3 px-[0px] py-[0px] rounded-full text-[16px] text-blue font-medium hover:bg-gray-50 transition-colors;
+}
+
+.btn3 {
+  @apply flex items-center justify-center gap-3 px-[14px] py-[8px] rounded-full bg-light-gray text-[13px] text-gray font-bold hover:opacity-90 transition-opacity shadow-sm;
+}
+
+.btn4 {
+  @apply w-full flex items-center justify-between cursor-pointer text-[20px] pr-[19px] font-medium;
+}
