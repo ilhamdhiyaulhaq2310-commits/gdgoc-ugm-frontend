@@ -32,3 +32,8 @@ Official REST API: [GDGoC UGM API](https://gdgoc-ugm-api.vercel.app/api)
 - Icons: react-icons
 - Version Control: GitHub
 - Deployment: Vercel
+
+## Main Features
+
+1. **Design Slicing & Responsive UI:** Translated Figma design specifications into a responsive, pixel-accurate web interface across multiple screen viewports.
+2. **Dynamic API Consumption:** Fetches and displays data dynamically from the official GDGoC UGM API endpoint with robust state management.
