@@ -18,7 +18,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Live Deployment URL: 
+Live Deployment URL: [gdgoc](https://gdgoc-ugm-frontend-theta.vercel.app/)
 
 Design Reference: [Figma UI Design Track](https://www.figma.com/design/yx06YRA90jBEX0Mmu64RBx/GDGoC-–-Open-Recruitment?node-id=0-1&p=f&t=GPJAepArDYuP9mwL-0)
 
